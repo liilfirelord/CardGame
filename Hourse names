@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Java Hourse name</h1>
+
+<p id="demo"></p>
+
+<script>
+const cars = ["Parker", "Gary", "Patric"];
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
