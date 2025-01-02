@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Creating JavaScript Objects</h1>
+<h2>Using an Object Literal</h2>
+
+<p id="demo"></p>
+public class Horse {
+    private String name;
+    private int yearBorn;
+
+    public Horse(String name, int yearBorn) {
+        this.name = name;
+        this.yearBorn = yearBorn;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getYearBorn() {
+        return yearBorn;
+    }
+
+    public void printDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Year Born: " + yearBorn);
+    }
+}
