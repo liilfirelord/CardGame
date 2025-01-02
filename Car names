@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+
+<p id="demo"></p>
+
+<script>
+const cars = [];
+cars[0]= "toyota";
+cars[1]= "lambo";
+cars[2]= "BMW";
+cars[3]= "Mclaran"
+cars[4]= "Jagaur"
+cars[5]= "Farari"
+cars[5]= "Grandmas car"
+cars[6]= "Moms old car"
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+</body>
+</html>
